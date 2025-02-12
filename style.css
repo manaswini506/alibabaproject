@@ -1,0 +1,54 @@
+header{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(161, 200, 236);
+}
+.logo{
+    font-size: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+nav{
+    margin-bottom: 20px;
+    padding:10px;
+}
+nav a{
+    margin-right: 20px;
+    font-size: 25px;
+}
+nav b{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.length{
+    height:100px;
+    width:50px;
+
+}
+.container{
+    display:grid;
+    background-color: beige;
+}
+.img container{
+    display:grid;
+    grid-template-columns: repeat(2,50%);
+}
+.cc{
+    margin:30px;
+}
+.row1{
+    display: flex;
+    margin:1%;
+}
+.product{
+    text-align: center;
+    border:1px solid rgb(228,228,228);
+    margin:5px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.product button{
+    background-color: rgb(137, 165, 165);
+    padding: 15px;
+    border-radius: 15px;
+}
